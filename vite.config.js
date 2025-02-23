@@ -8,6 +8,7 @@ import vueDevTools from "vite-plugin-vue-devtools";
 export default defineConfig({
   plugins: [vue(), vueDevTools()],
   base: "/bugwatch2/",
+
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),

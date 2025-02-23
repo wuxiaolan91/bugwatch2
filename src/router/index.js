@@ -25,6 +25,11 @@ const router = createRouter({
       component: () => import("../views/track/EventAnalysis.vue"),
     },
     {
+      path: "/track/guide",
+      name: "eventGuide",
+      component: () => import("../views/track/EventGuide.vue"),
+    },
+    {
       path: "/track/overview",
       name: "trackOverview",
       component: HomeView,
