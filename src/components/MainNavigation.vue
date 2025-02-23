@@ -11,7 +11,7 @@
       <!-- 埋点管理 -->
       <div class="nav-group">
         <div class="nav-group-title">埋点管理</div>
-        <router-link to="/track/guide.vue" class="nav-item" active-class="active">
+        <router-link to="/track/guide" class="nav-item" active-class="active">
           <span class="nav-icon">📊</span>
           埋点教程
         </router-link>
